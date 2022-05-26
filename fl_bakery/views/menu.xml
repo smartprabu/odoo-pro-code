@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odo>
+    <menuim id="menu_bakery_root"
+              nam="Bakery"
+              web_icon="fl_bakery,static/description/fl.png"
+              sequence="0"/>
+    <menuitem id="menu_customer_master"
+              nam="Customer Details"
+              action="point_of_sale.action_pos_config_kanban"
+              parent="menu_bakery_root"
+              sequence="0"/>
+    <menuitem id="menu_customers"
+              name="Customer"
+              action="account.res_partner_action_customer"
+              parent="menu_customer_master"
+              sequence="0"/>
+    <menuitem id ="menu_customerr"
+              name="Order"
+              action="account.res_partner_action_customer"
+              parent="menu_bakery_root"
+              sequence="0"/>
+</odo>
+
+
